@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ad Soyad | Unvan</title>
+  <meta name="description" content="Kısa ve net bir site açıklaması (150–160 karakter).">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#" class="logo">Ad Soyad</a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="ana-menu">Menü</button>
+      <nav id="ana-menu" class="site-nav" aria-label="Ana menü">
+        <ul>
+          <li><a href="#hakkimda">Hakkımda</a></li>
+          <li><a href="#projeler">Projeler</a></li>
+          <li><a href="#iletisim">İletişim</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="giris" class="hero">
+      <div class="container">
+        <h1>Tek cümlede ne yaptığınızı yazın</h1>
+        <p>Kime, hangi sonucu sağladığınızı anlatan kısa bir açıklama.</p>
+        <a href="#iletisim" class="btn">Birlikte çalışalım</a>
+      </div>
+    </section>
+
+    <section id="hakkimda" class="section">
+      <div class="container">
+        <h2>Hakkımda</h2>
+        <p>Kendinizi iki üç cümleyle tanıtın.</p>
+      </div>
+    </section>
+
+    <section id="projeler" class="section">
+      <div class="container">
+        <h2>Projeler</h2>
+        <div class="cards">
+          <article class="card">
+            <img src="https://placehold.co/600x400/png" alt="Projenin ne olduğunu anlatan açıklama" width="600" height="400" loading="lazy">
+            <h3>Proje adı</h3>
+            <p>Projenin kısa açıklaması.</p>
+          </article>
+          <article class="card">
+            <img src="https://placehold.co/600x400/png" alt="Projenin ne olduğunu anlatan açıklama" width="600" height="400" loading="lazy">
+            <h3>Proje adı</h3>
+            <p>Projenin kısa açıklaması.</p>
+          </article>
+          <article class="card">
+            <img src="https://placehold.co/600x400/png" alt="Projenin ne olduğunu anlatan açıklama" width="600" height="400" loading="lazy">
+            <h3>Proje adı</h3>
+            <p>Projenin kısa açıklaması.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="iletisim" class="section">
+      <div class="container">
+        <h2>İletişim</h2>
+        <form class="form" action="#" method="post">
+          <label for="ad">Adınız</label>
+          <input type="text" id="ad" name="ad" autocomplete="name" required>
+          <label for="eposta">E-posta adresiniz</label>
+          <input type="email" id="eposta" name="eposta" autocomplete="email" required>
+          <label for="mesaj">Mesajınız</label>
+          <textarea id="mesaj" name="mesaj" rows="5" required></textarea>
+          <button type="submit" class="btn">Mesajımı gönder</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 Ad Soyad</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
